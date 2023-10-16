@@ -18,3 +18,5 @@ def fizzbuzz():
 
     return render_template('fizzbuzz.html', numbers=numbers)
 
+if __name__ == '__main':
+    app.run(debug= True)
